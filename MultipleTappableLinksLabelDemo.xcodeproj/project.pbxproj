@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F920CB1C8D65D50095F796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F920CA1C8D65D50095F796 /* AppDelegate.swift */; };
+		00F920CD1C8D65D50095F796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F920CC1C8D65D50095F796 /* ViewController.swift */; };
+		00F920D01C8D65D50095F796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F920CE1C8D65D50095F796 /* Main.storyboard */; };
+		00F920D21C8D65D50095F796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F920D11C8D65D50095F796 /* Assets.xcassets */; };
+		00F920D51C8D65D50095F796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F920D31C8D65D50095F796 /* LaunchScreen.storyboard */; };
+		00F920F11C8D68E20095F796 /* TapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F920F01C8D68E20095F796 /* TapGestureExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00F920ED1C8D65E50095F796 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00F920C71C8D65D50095F796 /* MultipleTappableLinksLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTappableLinksLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F920CA1C8D65D50095F796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00F920CC1C8D65D50095F796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00F920CF1C8D65D50095F796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F920D11C8D65D50095F796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00F920D41C8D65D50095F796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00F920D61C8D65D50095F796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F920F01C8D68E20095F796 /* TapGestureExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapGestureExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F920C41C8D65D50095F796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F920BE1C8D65D50095F796 = {
+			isa = PBXGroup;
+			children = (
+				00F920C91C8D65D50095F796 /* MultipleTappableLinksLabelDemo */,
+				00F920C81C8D65D50095F796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00F920C81C8D65D50095F796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F920C71C8D65D50095F796 /* MultipleTappableLinksLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F920C91C8D65D50095F796 /* MultipleTappableLinksLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				00F920CA1C8D65D50095F796 /* AppDelegate.swift */,
+				00F920CC1C8D65D50095F796 /* ViewController.swift */,
+				00F920F01C8D68E20095F796 /* TapGestureExtension.swift */,
+				00F920CE1C8D65D50095F796 /* Main.storyboard */,
+				00F920D11C8D65D50095F796 /* Assets.xcassets */,
+				00F920D31C8D65D50095F796 /* LaunchScreen.storyboard */,
+				00F920D61C8D65D50095F796 /* Info.plist */,
+			);
+			path = MultipleTappableLinksLabelDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F920C61C8D65D50095F796 /* MultipleTappableLinksLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F920D91C8D65D50095F796 /* Build configuration list for PBXNativeTarget "MultipleTappableLinksLabelDemo" */;
+			buildPhases = (
+				00F920C31C8D65D50095F796 /* Sources */,
+				00F920C41C8D65D50095F796 /* Frameworks */,
+				00F920C51C8D65D50095F796 /* Resources */,
+				00F920ED1C8D65E50095F796 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleTappableLinksLabelDemo;
+			productName = MultipleTappableLinksLabelDemo;
+			productReference = 00F920C71C8D65D50095F796 /* MultipleTappableLinksLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F920BF1C8D65D50095F796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Robin;
+				TargetAttributes = {
+					00F920C61C8D65D50095F796 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 00F920C21C8D65D50095F796 /* Build configuration list for PBXProject "MultipleTappableLinksLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00F920BE1C8D65D50095F796;
+			productRefGroup = 00F920C81C8D65D50095F796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F920C61C8D65D50095F796 /* MultipleTappableLinksLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F920C51C8D65D50095F796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F920D51C8D65D50095F796 /* LaunchScreen.storyboard in Resources */,
+				00F920D21C8D65D50095F796 /* Assets.xcassets in Resources */,
+				00F920D01C8D65D50095F796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F920C31C8D65D50095F796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F920CD1C8D65D50095F796 /* ViewController.swift in Sources */,
+				00F920CB1C8D65D50095F796 /* AppDelegate.swift in Sources */,
+				00F920F11C8D68E20095F796 /* TapGestureExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00F920CE1C8D65D50095F796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F920CF1C8D65D50095F796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00F920D31C8D65D50095F796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F920D41C8D65D50095F796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F920D71C8D65D50095F796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00F920D81C8D65D50095F796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00F920DA1C8D65D50095F796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleTappableLinksLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mRocker.MultipleTappableLinksLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00F920DB1C8D65D50095F796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleTappableLinksLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mRocker.MultipleTappableLinksLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F920C21C8D65D50095F796 /* Build configuration list for PBXProject "MultipleTappableLinksLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F920D71C8D65D50095F796 /* Debug */,
+				00F920D81C8D65D50095F796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F920D91C8D65D50095F796 /* Build configuration list for PBXNativeTarget "MultipleTappableLinksLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F920DA1C8D65D50095F796 /* Debug */,
+				00F920DB1C8D65D50095F796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00F920BF1C8D65D50095F796 /* Project object */;
+}
